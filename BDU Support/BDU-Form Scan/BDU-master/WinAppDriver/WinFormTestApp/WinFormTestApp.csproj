@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <DeployPathEnvVarName>UITestApps</DeployPathEnvVarName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+      powershell.exe $dpath = $env:$(DeployPathEnvVarName); if ($dpath -ne $null) { New-Item -ItemType Directory -Path $dpath\$(ProjectName) -Force; Copy-Item $(TargetDir)\* $dpath\$(ProjectName) -Recurse -Force; Write-Host "Copy build files successful." } else { Write-Host "Copy build files stop. Environment variable '$(DeployPathEnvVarName)' not found." }
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.2.222702">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+  </ItemGroup>
+</Project>

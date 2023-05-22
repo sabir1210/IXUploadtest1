@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>BDU.Extensions</RootNamespace>
+    <AssemblyName>BDU.Extensions</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DBU.ViewModels\**" />
+    <Compile Remove="Renderers\**" />
+    <EmbeddedResource Remove="DBU.ViewModels\**" />
+    <EmbeddedResource Remove="Renderers\**" />
+    <None Remove="DBU.ViewModels\**" />
+    <None Remove="Renderers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    <PackageReference Include="WebDriverManager" Version="2.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\System.Windows.Forms.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\System.Windows.Forms.Primitives.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="TabCustom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ToggleButton.cs" />
+  </ItemGroup>
+
+</Project>

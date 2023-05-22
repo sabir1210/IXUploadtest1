@@ -1,0 +1,23 @@
+delete from booking_bill_items where booking_bill_id in ( select id from  booking_bills where hotel_booking_id in ( select id from hotel_bookings where hotel_id=6 and booking_source='integratex'))
+
+delete from  booking_bills where hotel_booking_id in ( select id from hotel_bookings where hotel_id=6 and booking_source='integratex')
+
+delete from signature_photos where hotel_booking_id in (  select id from hotel_bookings where hotel_id=6 and booking_source='integratex')
+
+delete from  vertical_data_trans where reference in (  select reference from hotel_bookings where hotel_id=6 and booking_source='integratex')
+delete from hotel_bookings where hotel_id=6 and booking_source='integratex'
+
+-- All for this hotel
+delete from booking_bill_items where booking_bill_id in ( select id from  booking_bills where hotel_booking_id in ( select id from hotel_bookings where hotel_id=6 ))
+
+delete from  booking_bills where hotel_booking_id in ( select id from hotel_bookings where hotel_id=6 )
+
+delete from signature_photos where hotel_booking_id in (  select id from hotel_bookings where hotel_id=6)
+
+delete from  vertical_data_trans where reference in (  select reference from hotel_bookings where hotel_id=6 )
+delete from hotel_bookings where hotel_id=6 
+
+delete from hotel_payment_details where hotel_id=6
+delete from hotel_payment_histories where hotel_id=6
+
+delete from hotel_status_logs where hotel_id=6

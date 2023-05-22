@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "servr.dbu.utility/1.0.0": {
+        "dependencies": {
+          "DBU.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "servr.dbu.utility.dll": {}
+        }
+      },
+      "DBU.ViewModels/1.0.0": {
+        "runtime": {
+          "DBU.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "servr.dbu.utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBU.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

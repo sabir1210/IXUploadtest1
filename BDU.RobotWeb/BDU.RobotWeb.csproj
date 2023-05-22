@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WebDriverFactory\**" />
+    <EmbeddedResource Remove="WebDriverFactory\**" />
+    <None Remove="WebDriverFactory\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="BlazorWebUserInputListener.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Interop.UIAutomationCore" Version="10.19041.0" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.2" />
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="85.0.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="WebDriverManager" Version="2.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BDU.Services\BDU.Services.csproj" />
+    <ProjectReference Include="..\DBU.UTIL\BDU.UTIL.csproj" />
+    <ProjectReference Include="..\DBU.ViewModels\BDU.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="chromedriver.exe">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

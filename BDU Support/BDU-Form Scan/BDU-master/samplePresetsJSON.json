@@ -1,0 +1,153 @@
+{
+  "hotel_id": 30,
+  "hotel_code": "servrdemo",
+  "system_type": "desktop",
+  "xpath": "xpath",
+  "hotel_name": "PMS Web",
+  "mappings": [
+    {
+      "id": 1,
+      "formid": "12012",
+      "cmsformid": "12012",
+      "formXpath": "xpath",
+      "status": 1,
+      "saves_status": 1,
+      "mappingfields": [
+        {
+          "id": 1001,
+          "cmsfieldid": "12",
+          "cmsfieldname": "12",
+          "fieldid": "12",
+          "xpath": "xpath",
+          "fieldname": "age",
+          "sorder": 1,
+          "status": 1,
+          "save_status": 1,
+          "defaultvalue": "0",
+          "format": "dd/mm/yyyy",
+          "expression": "document.field[1].selectvalue",
+          "optional": 0,
+          "datatype": "int"
+        }     ,
+      {
+        "id": 2,
+        "formid": "frmprofile",
+        "cmsformid": "12014",
+        "formXpath": "xpath",
+        "status": 1,
+        "saves_status": 1,
+        "mappingfields": [
+          {
+            "id": 1001,
+            "cmsfieldid": "12",
+            "cmsfieldname": "12",
+            "fieldid": "12",
+            "xpath": "xpath",
+            "fieldname": "age",
+            "sorder": 1,
+            "status": 1,
+            "save_status": 1,
+            "defaultvalue": "0",
+            "format": "dd/mm/yyyy",
+            "expression": "document.field[1].selectvalue",
+            "optional": 0,
+            "datatype": "int"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "formid": "frmcheckin",
+        "cmsformid": "12013",
+        "formXpath": "xpath",
+        "status": 1,
+        "saves_status": 1,
+        "mappingfields": [
+          {
+            "id": 1001,
+            "cmsfieldid": "12",
+            "cmsfieldname": "12",
+            "fieldid": "12",
+            "xpath": "xpath",
+            "fieldname": "age",
+            "sorder": 1,
+            "status": 1,
+            "save_status": 1,
+            "defaultvalue": "0",
+            "format": "dd/mm/yyyy",
+            "expression": "document.field[1].selectvalue",
+            "optional": 0,
+            "datatype": "int"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "formid": "billing_detail",
+        "cmsformid": "12015",
+        "formXpath": "xpath",
+        "status": 1,
+        "saves_status": 1,
+        "mappingfields": [
+          {
+            "id": 1001,
+            "cmsfieldid": "12",
+            "cmsfieldname": "12",
+            "fieldid": "12",
+            "xpath": "xpath",
+            "fieldname": "age",
+            "sorder": 1,
+            "status": 1,
+            "save_status": 1,
+            "defaultvalue": "0",
+            "format": "dd/mm/yyyy",
+            "expression": "document.field[1].selectvalue",
+            "optional": 0,
+            "datatype": "int"
+          }
+        ]
+      }
+    }
+  ],
+  "preferences": [
+    {
+      "notifications": [
+        {
+          "id": 1,
+          "notificationstatus": 1
+        }
+      ],
+      "vindicators": [
+        {
+          "id": 1,
+          "level": 1,
+          "color": "",
+          "threshold": 15,
+          "status": 1
+        },
+        {
+          "id": 2,
+          "level": 2,
+          "color": "#fffffe",
+          "threshold": 30,
+          "status": 1
+        },
+        {
+          "id": 3,
+          "level": 3,
+          "color": "#fffffe",
+          "threshold": 45,
+          "status": 1
+        }
+      ],
+      "api": [
+        {
+          "id": 1,
+          "uri": "https://cms.api.com/",
+          "token": "wt201289",
+          "status": 1
+        }
+      ]
+    }
+  ]
+}

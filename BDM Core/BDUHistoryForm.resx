@@ -1,0 +1,452 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grvHistoryData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="ColId.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColId.HeaderText" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="ColId.Visible" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
+  <data name="colReservationNo.HeaderText" xml:space="preserve">
+    <value>Reference #</value>
+  </data>
+  <data name="colReservationNo.MinimumWidth" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="colReservationNo.ToolTipText" xml:space="preserve">
+    <value>Reference #</value>
+  </data>
+  <data name="colReservationNo.Width" type="System.Int32, System.Private.CoreLib">
+    <value>135</value>
+  </data>
+  <data name="colEntity.HeaderText" xml:space="preserve">
+    <value>Form / Entity</value>
+  </data>
+  <data name="colEntity.MinimumWidth" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="colEntity.ToolTipText" xml:space="preserve">
+    <value>Data Of Reservation</value>
+  </data>
+  <data name="colEntity.Width" type="System.Int32, System.Private.CoreLib">
+    <value>130</value>
+  </data>
+  <metadata name="ColGuestName.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColGuestName.HeaderText" xml:space="preserve">
+    <value>Guest Name</value>
+  </data>
+  <data name="ColGuestName.ToolTipText" xml:space="preserve">
+    <value>Guest Name</value>
+  </data>
+  <data name="ColGuestName.Width" type="System.Int32, System.Private.CoreLib">
+    <value>150</value>
+  </data>
+  <metadata name="ColRoomNo.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColRoomNo.HeaderText" xml:space="preserve">
+    <value>Room #</value>
+  </data>
+  <metadata name="ColCurrentStatus.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColCurrentStatus.HeaderText" xml:space="preserve">
+    <value>Current Status</value>
+  </data>
+  <data name="ColCurrentStatus.Visible" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
+  <metadata name="ColSource.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColSource.HeaderText" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="ColSource.Width" type="System.Int32, System.Private.CoreLib">
+    <value>85</value>
+  </data>
+  <metadata name="ColArrivalDate.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColArrivalDate.HeaderText" xml:space="preserve">
+    <value>Arrival Date</value>
+  </data>
+  <data name="ColArrivalDate.ToolTipText" xml:space="preserve">
+    <value>Arrival Date</value>
+  </data>
+  <data name="ColArrivalDate.Width" type="System.Int32, System.Private.CoreLib">
+    <value>130</value>
+  </data>
+  <metadata name="ColReceiveTime.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="ColReceiveTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="ColReceiveTime.ToolTipText" xml:space="preserve">
+    <value>Receive Time</value>
+  </data>
+  <data name="ColReceiveTime.Width" type="System.Int32, System.Private.CoreLib">
+    <value>155</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grvHistoryData.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 6</value>
+  </data>
+  <assembly alias="System.Windows.Forms.Primitives" name="System.Windows.Forms.Primitives, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grvHistoryData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="grvHistoryData.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>886, 460</value>
+  </data>
+  <data name="grvHistoryData.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>886, 460</value>
+  </data>
+  <data name="grvHistoryData.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="grvHistoryData.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="grvHistoryData.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>886, 460</value>
+  </data>
+  <data name="grvHistoryData.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;grvHistoryData.Name" xml:space="preserve">
+    <value>grvHistoryData</value>
+  </data>
+  <data name="&gt;&gt;grvHistoryData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grvHistoryData.Parent" xml:space="preserve">
+    <value>pnl_GridBack</value>
+  </data>
+  <data name="&gt;&gt;grvHistoryData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_GridBack.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>6, 62</value>
+  </data>
+  <data name="pnl_GridBack.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 473</value>
+  </data>
+  <data name="pnl_GridBack.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 473</value>
+  </data>
+  <data name="pnl_GridBack.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 473</value>
+  </data>
+  <data name="pnl_GridBack.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pnl_GridBack.Name" xml:space="preserve">
+    <value>pnl_GridBack</value>
+  </data>
+  <data name="&gt;&gt;pnl_GridBack.Type" xml:space="preserve">
+    <value>BDU.Extensions.SPanel, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_GridBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnl_GridBack.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>382, 9</value>
+  </data>
+  <data name="btnCancel.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>125, 37</value>
+  </data>
+  <data name="btnCancel.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>125, 37</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>125, 37</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>20</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>BDU.Extensions.ServrButton, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtKeywordSearch.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txtKeywordSearch.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>19, 11</value>
+  </data>
+  <data name="txtKeywordSearch.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>583, 40</value>
+  </data>
+  <data name="txtKeywordSearch.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtKeywordSearch.Name" xml:space="preserve">
+    <value>txtKeywordSearch</value>
+  </data>
+  <data name="&gt;&gt;txtKeywordSearch.Type" xml:space="preserve">
+    <value>BDU.Extensions.ServrInputControl, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtKeywordSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtKeywordSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblRecords.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblRecords.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="lblRecords.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>17, 20</value>
+  </data>
+  <data name="lblRecords.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>92, 17</value>
+  </data>
+  <data name="lblRecords.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>21</value>
+  </data>
+  <data name="lblRecords.Text" xml:space="preserve">
+    <value>Records : 0</value>
+  </data>
+  <data name="&gt;&gt;lblRecords.Name" xml:space="preserve">
+    <value>lblRecords</value>
+  </data>
+  <data name="&gt;&gt;lblRecords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecords.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;lblRecords.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_Bottom.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>9, 544</value>
+  </data>
+  <data name="pnl_Bottom.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 56</value>
+  </data>
+  <data name="pnl_Bottom.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.Name" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.Type" xml:space="preserve">
+    <value>BDU.Extensions.SPanel, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tgl_Active_Inactive.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="tgl_Active_Inactive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Katakana</value>
+  </data>
+  <data name="tgl_Active_Inactive.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>708, 12</value>
+  </data>
+  <data name="tgl_Active_Inactive.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>155, 51</value>
+  </data>
+  <data name="tgl_Active_Inactive.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>93, 30</value>
+  </data>
+  <data name="tgl_Active_Inactive.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>119, 39</value>
+  </data>
+  <data name="tgl_Active_Inactive.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>63</value>
+  </data>
+  <data name="tgl_Active_Inactive.Text" xml:space="preserve">
+    <value>Filter for all &amp; only active reservations</value>
+  </data>
+  <data name="&gt;&gt;tgl_Active_Inactive.Name" xml:space="preserve">
+    <value>tgl_Active_Inactive</value>
+  </data>
+  <data name="&gt;&gt;tgl_Active_Inactive.Type" xml:space="preserve">
+    <value>BDU.Extensions.ToggleButton, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgl_Active_Inactive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tgl_Active_Inactive.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>908, 620</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>908, 620</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>908, 620</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BDUHistoryForm</value>
+  </data>
+  <data name="&gt;&gt;ColId.Name" xml:space="preserve">
+    <value>ColId</value>
+  </data>
+  <data name="&gt;&gt;ColId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colReservationNo.Name" xml:space="preserve">
+    <value>colReservationNo</value>
+  </data>
+  <data name="&gt;&gt;colReservationNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colEntity.Name" xml:space="preserve">
+    <value>colEntity</value>
+  </data>
+  <data name="&gt;&gt;colEntity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColGuestName.Name" xml:space="preserve">
+    <value>ColGuestName</value>
+  </data>
+  <data name="&gt;&gt;ColGuestName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColRoomNo.Name" xml:space="preserve">
+    <value>ColRoomNo</value>
+  </data>
+  <data name="&gt;&gt;ColRoomNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColCurrentStatus.Name" xml:space="preserve">
+    <value>ColCurrentStatus</value>
+  </data>
+  <data name="&gt;&gt;ColCurrentStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColSource.Name" xml:space="preserve">
+    <value>ColSource</value>
+  </data>
+  <data name="&gt;&gt;ColSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColArrivalDate.Name" xml:space="preserve">
+    <value>ColArrivalDate</value>
+  </data>
+  <data name="&gt;&gt;ColArrivalDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColReceiveTime.Name" xml:space="preserve">
+    <value>ColReceiveTime</value>
+  </data>
+  <data name="&gt;&gt;ColReceiveTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BDUHistoryForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

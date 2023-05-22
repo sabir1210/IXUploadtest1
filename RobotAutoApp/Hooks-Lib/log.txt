@@ -1,0 +1,42 @@
+2021-05-05 16:27:39.964 +05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.102\
+2021-05-05 16:27:40.027 +05:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-05 16:27:41.919 +05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-05-05 16:27:41.924 +05:00 [INF] Setting entrypoint to only project in solution: D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation\WinAppDriver.Generation.csproj
+2021-05-05 16:27:42.152 +05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-05 16:27:42.172 +05:00 [INF] Initializing upgrade step Back up project
+2021-05-05 16:27:44.041 +05:00 [INF] Applying upgrade step Back up project
+2021-05-05 16:27:46.119 +05:00 [INF] Backing up D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation to D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation.backup
+2021-05-05 16:27:46.137 +05:00 [WRN] Could not copy file D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation\log.txt due to 'The process cannot access the file 'D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation\log.txt' because it is being used by another process.'
+2021-05-05 16:27:46.305 +05:00 [INF] Project backed up to D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation.backup
+2021-05-05 16:27:46.309 +05:00 [INF] Upgrade step Back up project applied successfully
+2021-05-05 16:27:48.840 +05:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-05 16:27:48.845 +05:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-05 16:27:51.872 +05:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.222702) needs added
+2021-05-05 16:27:51.880 +05:00 [INF] Packages to be added:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-05-05 16:27:52.910 +05:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-05-05 16:27:52.924 +05:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-05-05 16:27:54.896 +05:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-05-05 16:27:59.644 +05:00 [INF] Initializing upgrade step Update TFM
+2021-05-05 16:27:59.649 +05:00 [INF] TFM needs updated to net5.0-windows
+2021-05-05 16:28:00.788 +05:00 [INF] Applying upgrade step Update TFM
+2021-05-05 16:28:03.761 +05:00 [INF] Updated TFM to net5.0-windows
+2021-05-05 16:28:03.762 +05:00 [INF] Upgrade step Update TFM applied successfully
+2021-05-05 16:28:05.236 +05:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-05 16:28:08.134 +05:00 [WRN] No version of Microsoft.WinAppDriver.Appium.WebDriver found that supports ["net5.0-windows"]; leaving unchanged
+2021-05-05 16:28:09.602 +05:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-05-05 16:28:09.612 +05:00 [INF] Packages to be added:
+Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-05 16:28:10.986 +05:00 [INF] Applying upgrade step Update NuGet Packages
+2021-05-05 16:28:10.989 +05:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-05 16:28:13.730 +05:00 [WRN] No version of Microsoft.WinAppDriver.Appium.WebDriver found that supports ["net5.0-windows"]; leaving unchanged
+2021-05-05 16:28:13.840 +05:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-05-05 16:28:15.493 +05:00 [INF] Initializing upgrade step Add template files
+2021-05-05 16:28:15.552 +05:00 [INF] 0 expected template items needed
+2021-05-05 16:28:15.643 +05:00 [INF] Initializing upgrade step Update source code
+2021-05-05 16:28:17.522 +05:00 [INF] Initializing upgrade step Move to next project
+2021-05-05 16:28:27.845 +05:00 [INF] Applying upgrade step Move to next project
+2021-05-05 16:28:27.846 +05:00 [INF] Upgrade step Move to next project applied successfully
+2021-05-05 16:28:29.464 +05:00 [INF] Initializing upgrade step Finalize upgrade
+2021-05-05 16:28:35.551 +05:00 [INF] Saving upgrade progress file at D:\Projects\Robot\WinAppDriver-poc.PlaybackImplementation\WinAppDriver.Solution\WinAppDriver.Generation\.upgrade-assistant

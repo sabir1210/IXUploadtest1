@@ -1,0 +1,18 @@
+2021-05-15 00:00:11.570 +05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.102\
+2021-05-15 00:00:11.649 +05:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-15 00:00:12.524 +05:00 [ERR] Unexpected error during upgrade.
+System.InvalidOperationException: Cannot open project 'D:\Projects\Robot\New folder\BDU\WinAppDriver\UIXPathLib\UIXPathLib.vcxproj' because the file extension '.vcxproj' is not associated with a language.
+   at Microsoft.CodeAnalysis.MSBuild.DiagnosticReporter.Report(DiagnosticReportingMode mode, String message, Func`2 createException)
+   at Microsoft.CodeAnalysis.MSBuild.ProjectFileLoaderRegistry.TryGetLoaderFromProjectPath(String projectFilePath, DiagnosticReportingMode mode, IProjectFileLoader& loader)
+   at Microsoft.CodeAnalysis.MSBuild.MSBuildProjectLoader.Worker.LoadProjectFileInfosAsync(String projectPath, DiagnosticReportingOptions reportingOptions, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.MSBuild.MSBuildProjectLoader.Worker.LoadProjectInfosFromPathAsync(String projectPath, DiagnosticReportingOptions reportingOptions, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.MSBuild.MSBuildProjectLoader.Worker.LoadAsync(CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.MSBuild.MSBuildProjectLoader.LoadProjectInfoAsync(String projectFilePath, ProjectMap projectMap, IProgress`1 progress, ILogger msbuildLogger, CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace.OpenProjectAsync(String projectFilePath, ILogger msbuildLogger, IProgress`1 progress, CancellationToken cancellationToken)
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.MSBuildWorkspaceUpgradeContext.GetMsBuildWorkspaceAsync(CancellationToken token) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/MSBuildWorkspaceUpgradeContext.cs:line 182
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.MSBuildWorkspaceUpgradeContext.InitializeWorkspace(CancellationToken token) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/MSBuildWorkspaceUpgradeContext.cs:line 165
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.MSBuildUpgradeContextFactory.CreateContext(CancellationToken token) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/MSBuildUpgradeContextFactory.cs:line 30
+   at Microsoft.DotNet.UpgradeAssistant.Cli.ConsoleUpgrade.RunAsync(CancellationToken token) in /_/src/cli/Microsoft.DotNet.UpgradeAssistant.Cli/ConsoleUpgrade.cs:line 43
+   at Microsoft.DotNet.UpgradeAssistant.Cli.ConsoleRunner.RunCommandAsync(CancellationToken token) in /_/src/cli/Microsoft.DotNet.UpgradeAssistant.Cli/ConsoleRunner.cs:line 86
+   at Microsoft.DotNet.UpgradeAssistant.Cli.ConsoleRunner.StartAsync(CancellationToken token) in /_/src/cli/Microsoft.DotNet.UpgradeAssistant.Cli/ConsoleRunner.cs:line 44

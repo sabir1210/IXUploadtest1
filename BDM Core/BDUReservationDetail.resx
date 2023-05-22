@@ -1,0 +1,1448 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="lblPaymentAmount.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="lblPaymentAmount.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblPaymentAmount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblPaymentAmount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>639, 385</value>
+  </data>
+  <data name="lblPaymentAmount.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblPaymentAmount.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblPaymentAmount.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblPaymentAmount.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>114</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentAmount.Name" xml:space="preserve">
+    <value>lblPaymentAmount</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentAmount.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentAmount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>615, 378</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>113</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>468, 383</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>145, 20</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>112</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Payment Amount</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>605, 185</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>111</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>568, 251</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>110</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>596, 446</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>109</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>130, 447</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>108</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>140, 381</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>107</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>110, 318</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>106</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>576, 120</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>105</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>111, 252</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>104</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>159, 185</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>103</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Tai Le, 17pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>166, 121</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>19, 29</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>102</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblRecievedFrom.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblRecievedFrom.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblRecievedFrom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRecievedFrom.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>620, 452</value>
+  </data>
+  <data name="lblRecievedFrom.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblRecievedFrom.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblRecievedFrom.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblRecievedFrom.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;lblRecievedFrom.Name" xml:space="preserve">
+    <value>lblRecievedFrom</value>
+  </data>
+  <data name="&gt;&gt;lblRecievedFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecievedFrom.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblRecievedFrom.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>471, 450</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>124, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>100</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Received from</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblLastName.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblLastName.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblLastName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLastName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>593, 257</value>
+  </data>
+  <data name="lblLastName.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblLastName.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblLastName.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblLastName.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Name" xml:space="preserve">
+    <value>lblLastName</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblDepartureDate.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblDepartureDate.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblDepartureDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDepartureDate.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>627, 191</value>
+  </data>
+  <data name="lblDepartureDate.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblDepartureDate.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblDepartureDate.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblDepartureDate.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;lblDepartureDate.Name" xml:space="preserve">
+    <value>lblDepartureDate</value>
+  </data>
+  <data name="&gt;&gt;lblDepartureDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDepartureDate.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblDepartureDate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblVoucherNo.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblVoucherNo.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblVoucherNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVoucherNo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>599, 126</value>
+  </data>
+  <data name="lblVoucherNo.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblVoucherNo.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblVoucherNo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblVoucherNo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;lblVoucherNo.Name" xml:space="preserve">
+    <value>lblVoucherNo</value>
+  </data>
+  <data name="&gt;&gt;lblVoucherNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVoucherNo.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblVoucherNo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblArrivalDate.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblArrivalDate.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblArrivalDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArrivalDate.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>183, 189</value>
+  </data>
+  <data name="lblArrivalDate.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblArrivalDate.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblArrivalDate.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblArrivalDate.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;lblArrivalDate.Name" xml:space="preserve">
+    <value>lblArrivalDate</value>
+  </data>
+  <data name="&gt;&gt;lblArrivalDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArrivalDate.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblArrivalDate.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblEntityName.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblEntityName.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblEntityName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEntityName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>155, 452</value>
+  </data>
+  <data name="lblEntityName.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblEntityName.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblEntityName.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblEntityName.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;lblEntityName.Name" xml:space="preserve">
+    <value>lblEntityName</value>
+  </data>
+  <data name="&gt;&gt;lblEntityName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEntityName.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblEntityName.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblRoomNo.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblRoomNo.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblRoomNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRoomNo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 386</value>
+  </data>
+  <data name="lblRoomNo.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblRoomNo.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblRoomNo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblRoomNo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;lblRoomNo.Name" xml:space="preserve">
+    <value>lblRoomNo</value>
+  </data>
+  <data name="&gt;&gt;lblRoomNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRoomNo.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblRoomNo.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblEmail.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblEmail.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblEmail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>133, 323</value>
+  </data>
+  <data name="lblEmail.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>500, 20</value>
+  </data>
+  <data name="lblEmail.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>500, 20</value>
+  </data>
+  <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>500, 20</value>
+  </data>
+  <data name="lblEmail.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Name" xml:space="preserve">
+    <value>lblEmail</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblBookingRef.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblBookingRef.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblBookingRef.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBookingRef.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>187, 126</value>
+  </data>
+  <data name="lblBookingRef.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblBookingRef.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblBookingRef.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblBookingRef.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;lblBookingRef.Name" xml:space="preserve">
+    <value>lblBookingRef</value>
+  </data>
+  <data name="&gt;&gt;lblBookingRef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookingRef.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblBookingRef.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>134, 257</value>
+  </data>
+  <data name="lblName.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblName.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>200, 20</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>471, 255</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>95, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>90</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>26, 92</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>807, 2</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblConfirmationNo.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblConfirmationNo.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lblConfirmationNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblConfirmationNo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>442, 30</value>
+  </data>
+  <data name="lblConfirmationNo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>0, 33</value>
+  </data>
+  <data name="lblConfirmationNo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;lblConfirmationNo.Name" xml:space="preserve">
+    <value>lblConfirmationNo</value>
+  </data>
+  <data name="&gt;&gt;lblConfirmationNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConfirmationNo.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblConfirmationNo.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblControlType.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblControlType.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblControlType.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>471, 189</value>
+  </data>
+  <data name="lblControlType.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>134, 20</value>
+  </data>
+  <data name="lblControlType.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>43</value>
+  </data>
+  <data name="lblControlType.Text" xml:space="preserve">
+    <value>Departure Date</value>
+  </data>
+  <data name="&gt;&gt;lblControlType.Name" xml:space="preserve">
+    <value>lblControlType</value>
+  </data>
+  <data name="&gt;&gt;lblControlType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblControlType.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblControlType.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblParentControl.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblParentControl.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblParentControl.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>471, 124</value>
+  </data>
+  <data name="lblParentControl.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>103, 20</value>
+  </data>
+  <data name="lblParentControl.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>45</value>
+  </data>
+  <data name="lblParentControl.Text" xml:space="preserve">
+    <value>Voucher No</value>
+  </data>
+  <data name="&gt;&gt;lblParentControl.Name" xml:space="preserve">
+    <value>lblParentControl</value>
+  </data>
+  <data name="&gt;&gt;lblParentControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParentControl.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblParentControl.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblfield_desc.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblfield_desc.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblfield_desc.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>57, 189</value>
+  </data>
+  <data name="lblfield_desc.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>103, 20</value>
+  </data>
+  <data name="lblfield_desc.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>42</value>
+  </data>
+  <data name="lblfield_desc.Text" xml:space="preserve">
+    <value>Arrival Date</value>
+  </data>
+  <data name="&gt;&gt;lblfield_desc.Name" xml:space="preserve">
+    <value>lblfield_desc</value>
+  </data>
+  <data name="&gt;&gt;lblfield_desc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblfield_desc.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblfield_desc.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblExpression.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblExpression.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblExpression.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>57, 450</value>
+  </data>
+  <data name="lblExpression.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>72, 20</value>
+  </data>
+  <data name="lblExpression.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>41</value>
+  </data>
+  <data name="lblExpression.Text" xml:space="preserve">
+    <value>Data Of</value>
+  </data>
+  <data name="&gt;&gt;lblExpression.Name" xml:space="preserve">
+    <value>lblExpression</value>
+  </data>
+  <data name="&gt;&gt;lblExpression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExpression.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblExpression.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ConfirmationNo.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="ConfirmationNo.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 21.75pt, style=Bold</value>
+  </data>
+  <data name="ConfirmationNo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>181, 30</value>
+  </data>
+  <data name="ConfirmationNo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>259, 33</value>
+  </data>
+  <data name="ConfirmationNo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>31</value>
+  </data>
+  <data name="ConfirmationNo.Text" xml:space="preserve">
+    <value>Confirmation No :</value>
+  </data>
+  <data name="&gt;&gt;ConfirmationNo.Name" xml:space="preserve">
+    <value>ConfirmationNo</value>
+  </data>
+  <data name="&gt;&gt;ConfirmationNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConfirmationNo.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;ConfirmationNo.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lblMaxLength.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblMaxLength.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblMaxLength.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>57, 385</value>
+  </data>
+  <data name="lblMaxLength.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>83, 20</value>
+  </data>
+  <data name="lblMaxLength.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>25</value>
+  </data>
+  <data name="lblMaxLength.Text" xml:space="preserve">
+    <value>Room No</value>
+  </data>
+  <data name="&gt;&gt;lblMaxLength.Name" xml:space="preserve">
+    <value>lblMaxLength</value>
+  </data>
+  <data name="&gt;&gt;lblMaxLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxLength.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblMaxLength.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblDataType_Source.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblDataType_Source.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblDataType_Source.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>57, 321</value>
+  </data>
+  <data name="lblDataType_Source.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>53, 20</value>
+  </data>
+  <data name="lblDataType_Source.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>23</value>
+  </data>
+  <data name="lblDataType_Source.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;lblDataType_Source.Name" xml:space="preserve">
+    <value>lblDataType_Source</value>
+  </data>
+  <data name="&gt;&gt;lblDataType_Source.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataType_Source.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblDataType_Source.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblFieldName.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblFieldName.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblFieldName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>57, 124</value>
+  </data>
+  <data name="lblFieldName.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>108, 20</value>
+  </data>
+  <data name="lblFieldName.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>21</value>
+  </data>
+  <data name="lblFieldName.Text" xml:space="preserve">
+    <value>Booking Ref</value>
+  </data>
+  <data name="&gt;&gt;lblFieldName.Name" xml:space="preserve">
+    <value>lblFieldName</value>
+  </data>
+  <data name="&gt;&gt;lblFieldName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFieldName.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblFieldName.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblPMSUniqueID.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lblPMSUniqueID.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPMSUniqueID.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>57, 255</value>
+  </data>
+  <data name="lblPMSUniqueID.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>55, 20</value>
+  </data>
+  <data name="lblPMSUniqueID.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>22</value>
+  </data>
+  <data name="lblPMSUniqueID.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;lblPMSUniqueID.Name" xml:space="preserve">
+    <value>lblPMSUniqueID</value>
+  </data>
+  <data name="&gt;&gt;lblPMSUniqueID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPMSUniqueID.Parent" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;lblPMSUniqueID.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="pnl_ReservationDetail.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>25, 61</value>
+  </data>
+  <data name="pnl_ReservationDetail.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>858, 502</value>
+  </data>
+  <data name="pnl_ReservationDetail.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;pnl_ReservationDetail.Name" xml:space="preserve">
+    <value>pnl_ReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;pnl_ReservationDetail.Type" xml:space="preserve">
+    <value>BDU.Extensions.SPanel, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_ReservationDetail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnl_ReservationDetail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>368, 12</value>
+  </data>
+  <data name="btnCancel.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>125, 37</value>
+  </data>
+  <data name="btnCancel.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>125, 37</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>125, 37</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>20</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>BDU.Extensions.ServrButton, BDU.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlheaderReservationDetail.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="pnlheaderReservationDetail.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="pnlheaderReservationDetail.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.Name" xml:space="preserve">
+    <value>btn_MainMenuClose</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.Parent" xml:space="preserve">
+    <value>pnlheaderReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlheaderReservationDetail.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms.Primitives" name="System.Windows.Forms.Primitives, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlheaderReservationDetail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnlheaderReservationDetail.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 42</value>
+  </data>
+  <data name="pnlheaderReservationDetail.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 42</value>
+  </data>
+  <data name="pnlheaderReservationDetail.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 42</value>
+  </data>
+  <data name="pnlheaderReservationDetail.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;pnlheaderReservationDetail.Name" xml:space="preserve">
+    <value>pnlheaderReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;pnlheaderReservationDetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlheaderReservationDetail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlheaderReservationDetail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_MainMenuClose.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_MainMenuClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_MainMenuClose.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Century Gothic, 27pt, style=Bold</value>
+  </data>
+  <data name="btn_MainMenuClose.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>830, -1</value>
+  </data>
+  <data name="btn_MainMenuClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btn_MainMenuClose.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>41, 45</value>
+  </data>
+  <data name="btn_MainMenuClose.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>22</value>
+  </data>
+  <data name="btn_MainMenuClose.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.Name" xml:space="preserve">
+    <value>btn_MainMenuClose</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.Parent" xml:space="preserve">
+    <value>pnlheaderReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenuClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="panel1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="panel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 581</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel1.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>858, 62</value>
+  </data>
+  <data name="panel1.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>858, 62</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>858, 62</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 662</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 662</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>895, 662</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BDUReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BDUReservationDetail</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

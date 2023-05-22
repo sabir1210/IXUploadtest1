@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.116" />
+    <PackageReference Include="WebDriverManager" Version="2.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBU.CoreInterfaces\BDU.Interfaces.csproj" />
+    <ProjectReference Include="..\DBU.UTIL\BDU.UTIL.csproj" />
+    <ProjectReference Include="..\DBU.ViewModels\BDU.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

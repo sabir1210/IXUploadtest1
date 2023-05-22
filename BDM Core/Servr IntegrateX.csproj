@@ -1,0 +1,191 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>servr.integratex.ui</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Servr IntegrateX</AssemblyName>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>loading.ico</ApplicationIcon>
+    <Authors>Blazor Technologies Inc</Authors>
+    <Copyright>Copyrights reserved</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>Windows 10</PackageTags>
+    <AssemblyVersion>2.0.0.4</AssemblyVersion>
+    <FileVersion>2.0.0.4</FileVersion>
+    <Description>IntegrateX, Bot Engine</Description>
+    <Company>Servr Limited</Company>
+    <SignAssembly>false</SignAssembly>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Product>IntegrateX</Product>
+    <AnalysisLevel>none</AnalysisLevel>
+    <Version>2.0.0.0</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <ErrorReport>none</ErrorReport>
+    <FileAlignment>2048</FileAlignment>
+    <DebugType>None</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\publish\</OutputPath>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <ErrorReport>none</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Certificates\**" />
+    <Compile Remove="HybridImages\**" />
+    <EmbeddedResource Remove="Certificates\**" />
+    <EmbeddedResource Remove="HybridImages\**" />
+    <None Remove="Certificates\**" />
+    <None Remove="HybridImages\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BDUPreferencesForm.cs" />
+    <Compile Remove="BDUPreferencesForm.Designer.cs" />
+    <Compile Remove="integratex.cs" />
+    <Compile Remove="integratex.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="BDUPreferencesForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="BDM Core.zip" />
+    <None Remove="chromedriver.exe" />
+    <None Remove="Drivers\chromedriver.exe" />
+    <None Remove="Drivers\clix.ps1" />
+    <None Remove="Drivers\cpprest140_2_9.dll" />
+    <None Remove="Drivers\Microsoft.Win32.Primitives.dll" />
+    <None Remove="Drivers\Microsoft.Win32.Registry.dll" />
+    <None Remove="Drivers\MitaBroker.dll" />
+    <None Remove="Drivers\MitaLite.AppModel.dll" />
+    <None Remove="Drivers\MitaLite.Foundation.dll" />
+    <None Remove="Drivers\MitaLite.Localization.dll" />
+    <None Remove="Drivers\MitaLite.UIAutomationAdapter.dll" />
+    <None Remove="Drivers\MitaLite.UIAutomationClient.dll" />
+    <None Remove="Drivers\Newtonsoft.Json.dll" />
+    <None Remove="Drivers\System.Diagnostics.Process.dll" />
+    <None Remove="Drivers\System.Threading.Thread.dll" />
+    <None Remove="Drivers\ui.vision.html" />
+    <None Remove="Drivers\UIXPathLib.dll" />
+    <None Remove="Drivers\WinAppDriver.exe" />
+    <None Remove="Drivers\WinAppDriverCore.dll" />
+    <None Remove="integratexdb.db" />
+    <None Remove="loading.ico" />
+    <None Remove="log\integrateXLog.log" />
+    <None Remove="nlog.config" />
+    <None Remove="Properties\launchSettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chromedriver.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Drivers\chromedriver.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Drivers\clix.ps1" />
+    <Content Include="Drivers\cpprest140_2_9.dll" />
+    <Content Include="Drivers\Microsoft.Win32.Primitives.dll" />
+    <Content Include="Drivers\Microsoft.Win32.Registry.dll" />
+    <Content Include="Drivers\MitaBroker.dll" />
+    <Content Include="Drivers\MitaLite.AppModel.dll" />
+    <Content Include="Drivers\MitaLite.Foundation.dll" />
+    <Content Include="Drivers\MitaLite.Localization.dll" />
+    <Content Include="Drivers\MitaLite.UIAutomationAdapter.dll" />
+    <Content Include="Drivers\MitaLite.UIAutomationClient.dll" />
+    <Content Include="Drivers\Newtonsoft.Json.dll" />
+    <Content Include="Drivers\System.Diagnostics.Process.dll" />
+    <Content Include="Drivers\System.Threading.Thread.dll" />
+    <Content Include="Drivers\ui.vision.html" />
+    <Content Include="Drivers\UIXPathLib.dll" />
+    <Content Include="Drivers\WinAppDriver.exe" />
+    <Content Include="Drivers\WinAppDriverCore.dll" />
+    <Content Include="integratexdb.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="loading.ico" />
+    <Content Include="log\integrateXLog.log" />
+    <Content Include="nlog.config" CopyToOutputDirectory="Always" />
+    <Content Include="Properties\launchSettings.json" />
+  </ItemGroup>  
+  <ItemGroup>
+    <PackageReference Include="Core.System.Configuration.Install" Version="1.1.0" />
+    <PackageReference Include="NLog" Version="4.7.15" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="WebDriverManager" Version="2.16.1" />
+	<None Update="Properties\Settings.settings">
+	  <Generator>SettingsSingleFileGenerator</Generator>
+	  <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	</None>
+	<None Update="setup.ico">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BDU.RobotWeb\BDU.RobotWeb.csproj">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\BDU.Services\BDU.Services.csproj" />
+    <ProjectReference Include="..\DBU.UTIL\BDU.UTIL.csproj">
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+    </ProjectReference>
+    <ProjectReference Include="..\DBU.ViewModels\BDU.ViewModels.csproj" />
+    <ProjectReference Include="..\RobotAutoApp\BDU.RobotDesktop\BDU.RobotDesktop.csproj">
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+    </ProjectReference>
+    <ProjectReference Include="..\ToggleSwitch\BDU.Extensions.csproj">
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+    </ProjectReference>
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <None Update="appConfiguration.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="**/*.pubxml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None> 
+	<None Update="***.pdb">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>	
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BDUInegationNewForm.cs" />
+    <Compile Update="BDUHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\ClickOnceProfile.pubxml.user" />
+  </ItemGroup>
+</Project>

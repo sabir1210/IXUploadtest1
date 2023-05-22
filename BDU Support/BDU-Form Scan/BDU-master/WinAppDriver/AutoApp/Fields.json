@@ -1,0 +1,125 @@
+{
+  "formRootXPath": "/Pane[@Name=\"Desktop\"][@ClassName=\"#32769\"]/Window[@AutomationId=\"TestApp\"][@Name=\"PMS Data Form\"]",
+  "formFields": [
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Text[@AutomationId=\"lblID\"]",
+      "name": "lblID",
+      "datatype": "int",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[@AutomationId=\"txtID\"]",
+      "name": "txtID",
+      "datatype": "int",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[@AutomationId=\"tbReadonly\"]",
+      "name": "tbReadonly",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[@AutomationId=\"tbHidden\"]",
+      "name": "tbHidden",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[@AutomationId=\"tbFirst\"]",
+      "name": "tbFirst",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[@AutomationId=\"tbSecond\"]",
+      "name": "tbSecond",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/CheckBox[@Name=\"IsEnabledTextListBox\"][starts-with(@AutomationId,\"cbEnable\")]",
+      "name": "cbEnable",
+      "datatype": "bool",
+      "expression": "Selected"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/List[@AutomationId=\"tlbMonths\"]",
+      "name": "tlbMonths",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/List[@AutomationId=\"clbMonths\"]",
+      "name": "clbMonths",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/ComboBox[@AutomationId=\"cbDays\"]",
+      "name": "cbDays",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Group[@Name=\"Gender\"][starts-with(@AutomationId,\"groupBox\")]/RadioButton[@Name=\"Female\"][@AutomationId=\"rbFemale\"]",
+      "name": "rbFemale",
+      "datatype": "bool",
+      "expression": "Selected"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Group[@Name=\"Gender\"][starts-with(@AutomationId,\"groupBox\")]/RadioButton[@Name=\"Male\"][@AutomationId=\"rbMale\"]",
+      "name": "rbMale",
+      "datatype": "bool",
+      "expression": "Selected"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Spinner[@AutomationId=\"nudCount\"]",
+      "name": "nudCount",
+      "datatype": "int",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[starts-with(@AutomationId,\"tbNum\")]",
+      "name": "tbNum",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[@AutomationId=\"tbAddress\"]",
+      "name": "tbAddress",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/ComboBox[@AutomationId=\"cbCity\"]",
+      "name": "cbCity",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Edit[starts-with(@AutomationId,\"mtbPhone\")]",
+      "name": "mtbPhone",
+      "datatype": "text",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Pane[@AutomationId=\"dtpArrival\"]",
+      "name": "dtpArrival",
+      "datatype": "date",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Pane[starts-with(@AutomationId,\"dtpTime\")]",
+      "name": "dtpTime",
+      "datatype": "time",
+      "expression": "Text"
+    },
+    {
+      "desktopXPath": "/Pane[@ClassName=\"#32769\"][@Name=\"Desktop 1\"]/Window[@Name=\"TestApp\"][@AutomationId=\"TestApp\"]/Document[starts-with(@AutomationId,\"rtbComments\")]",
+      "name": "rtbComments",
+      "datatype": "text",
+      "expression": "Text"
+    }
+  ]
+}

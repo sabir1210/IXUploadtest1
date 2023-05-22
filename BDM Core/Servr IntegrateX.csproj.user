@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\IX\aii\BDM Core\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="BDUHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BDUInegationNewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BDULoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BDUMappingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BDUPreference_Mapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BDUReservationDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BDUSyncForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Extensions\ServrMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MappingForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="PreferenceSettingcs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

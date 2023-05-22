@@ -1,0 +1,45 @@
+2021-05-04 12:27:52.512 +05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.102\
+2021-05-04 12:27:52.577 +05:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-04 12:27:54.227 +05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-05-04 12:27:54.233 +05:00 [INF] Setting entrypoint to only project in solution: D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp\WinFormTestApp.csproj
+2021-05-04 12:27:54.243 +05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-04 12:27:54.332 +05:00 [INF] Initializing upgrade step Back up project
+2021-05-04 12:27:57.391 +05:00 [INF] Applying upgrade step Back up project
+2021-05-04 12:28:02.643 +05:00 [INF] Backing up D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp to D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp.backup
+2021-05-04 12:28:02.669 +05:00 [WRN] Could not copy file D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp\log.txt due to 'The process cannot access the file 'D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp\log.txt' because it is being used by another process.'
+2021-05-04 12:28:02.737 +05:00 [INF] Project backed up to D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp.backup
+2021-05-04 12:28:02.740 +05:00 [INF] Upgrade step Back up project applied successfully
+2021-05-04 12:28:08.943 +05:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-04 12:28:09.843 +05:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-05-04 12:28:09.846 +05:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-05-04 12:28:10.618 +05:00 [INF] [try-convert] D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp\WinFormTestApp.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-05-04 12:28:11.780 +05:00 [INF] [try-convert] Conversion complete!
+2021-05-04 12:28:12.156 +05:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-05-04 12:28:13.787 +05:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-05-04 12:28:13.890 +05:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-04 12:28:16.792 +05:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.222702) needs added
+2021-05-04 12:28:16.808 +05:00 [INF] Packages to be added:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-05-04 12:28:18.098 +05:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-05-04 12:28:18.109 +05:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-05-04 12:28:19.850 +05:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-05-04 12:28:24.979 +05:00 [INF] Initializing upgrade step Update TFM
+2021-05-04 12:28:24.993 +05:00 [INF] TFM needs updated to net5.0-windows
+2021-05-04 12:28:26.064 +05:00 [INF] Applying upgrade step Update TFM
+2021-05-04 12:28:28.291 +05:00 [INF] Updated TFM to net5.0-windows
+2021-05-04 12:28:28.293 +05:00 [INF] Upgrade step Update TFM applied successfully
+2021-05-04 12:28:34.470 +05:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-04 12:28:37.356 +05:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-05-04 12:28:37.359 +05:00 [INF] Packages to be added:
+Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-04 12:28:38.486 +05:00 [INF] Applying upgrade step Update NuGet Packages
+2021-05-04 12:28:38.490 +05:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-04 12:28:40.984 +05:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-05-04 12:28:47.357 +05:00 [INF] Initializing upgrade step Add template files
+2021-05-04 12:28:47.409 +05:00 [INF] 0 expected template items needed
+2021-05-04 12:28:47.413 +05:00 [INF] Initializing upgrade step Upgrade app config files
+2021-05-04 12:28:47.433 +05:00 [INF] Found 0 app settings for upgrade: 
+2021-05-04 12:28:47.476 +05:00 [INF] Initializing upgrade step Update source code
+2021-05-04 12:28:49.165 +05:00 [INF] Initializing upgrade step Move to next project
+2021-05-04 12:29:02.244 +05:00 [INF] Saving upgrade progress file at D:\Projects\Robot\BlazorT\BDU\WinAppDriver\WinFormTestApp\.upgrade-assistant

@@ -1,0 +1,10 @@
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\bin\Debug\netcoreapp3.1\DBU.ViewModels.deps.json
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\bin\Debug\netcoreapp3.1\DBU.ViewModels.dll
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\bin\Debug\netcoreapp3.1\DBU.ViewModels.pdb
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.csproj.AssemblyReference.cache
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.AssemblyInfoInputs.cache
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.AssemblyInfo.cs
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.dll
+C:\Users\m\Source\Repos\aii\BDU Support\BDU-Form Scan\BDU-master\DBU.ViewModels\obj\Debug\netcoreapp3.1\DBU.ViewModels.pdb
